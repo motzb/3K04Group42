@@ -1,0 +1,26 @@
+AAIver2.o: \
+ C:/Users/kemij/ONEDRI~1/THIRDY~1/1STSEM~1/SFWR3K~1/ASSIGN~1/3K04GR~1/AAIver2_ert_rtw/AAIver2.c \
+ C:/Users/kemij/ONEDRI~1/THIRDY~1/1STSEM~1/SFWR3K~1/ASSIGN~1/3K04GR~1/AAIver2_ert_rtw/AAIver2.h \
+ C:/Users/kemij/ONEDRI~1/THIRDY~1/1STSEM~1/SFWR3K~1/ASSIGN~1/3K04GR~1/AAIver2_ert_rtw/rtwtypes.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/freedomk64f/include/MW_digitalIO.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/freedomk64f/include/MW_SVD.h \
+ C:/Users/kemij/OneDrive\ -\ McMaster\ University/THIRD\ YEAR/1st\ Semester/SFWR\ 3K04/Assignment1/3K04Group42/AAIver2_ert_rtw/rtwtypes.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/freedomk64f/include/MW_PWM.h \
+ C:/Users/kemij/ONEDRI~1/THIRDY~1/1STSEM~1/SFWR3K~1/ASSIGN~1/3K04GR~1/AAIver2_ert_rtw/AAIver2_types.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/freedomk64f/include/MW_SVD.h
+
+C:/Users/kemij/ONEDRI~1/THIRDY~1/1STSEM~1/SFWR3K~1/ASSIGN~1/3K04GR~1/AAIver2_ert_rtw/AAIver2.h:
+
+C:/Users/kemij/ONEDRI~1/THIRDY~1/1STSEM~1/SFWR3K~1/ASSIGN~1/3K04GR~1/AAIver2_ert_rtw/rtwtypes.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/freedomk64f/include/MW_digitalIO.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/freedomk64f/include/MW_SVD.h:
+
+C:/Users/kemij/OneDrive\ -\ McMaster\ University/THIRD\ YEAR/1st\ Semester/SFWR\ 3K04/Assignment1/3K04Group42/AAIver2_ert_rtw/rtwtypes.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/freedomk64f/include/MW_PWM.h:
+
+C:/Users/kemij/ONEDRI~1/THIRDY~1/1STSEM~1/SFWR3K~1/ASSIGN~1/3K04GR~1/AAIver2_ert_rtw/AAIver2_types.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/freedomk64f/include/MW_SVD.h:
