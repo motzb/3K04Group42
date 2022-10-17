@@ -9,7 +9,7 @@
  *
  * Model version                  : 1.11
  * Simulink Coder version         : 9.7 (R2022a) 13-Nov-2021
- * C/C++ source code generated on : Mon Oct  3 16:29:12 2022
+ * C/C++ source code generated on : Mon Oct  3 16:37:23 2022
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex
@@ -26,10 +26,10 @@ P_AOO_T AOO_P = {
    */
   100.0,
 
-  /* Expression: 1
+  /* Expression: 30
    * Referenced by: '<Root>/p_aPaceWidth'
    */
-  1.0,
+  30.0,
 
   /* Expression: 100
    * Referenced by: '<Root>/p_aPaceAmp'

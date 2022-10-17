@@ -9,7 +9,7 @@
  *
  * Model version                  : 1.11
  * Simulink Coder version         : 9.7 (R2022a) 13-Nov-2021
- * C/C++ source code generated on : Mon Oct  3 16:29:12 2022
+ * C/C++ source code generated on : Mon Oct  3 16:37:23 2022
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex
@@ -61,7 +61,7 @@ struct P_AOO_T_ {
   real_T p_lowrateinterval_Value;      /* Expression: 100
                                         * Referenced by: '<Root>/p_lowrateinterval'
                                         */
-  real_T p_aPaceWidth_Value;           /* Expression: 1
+  real_T p_aPaceWidth_Value;           /* Expression: 30
                                         * Referenced by: '<Root>/p_aPaceWidth'
                                         */
   real_T p_aPaceAmp_Value;             /* Expression: 100
