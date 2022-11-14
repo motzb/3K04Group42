@@ -9,21 +9,21 @@ while (running == True):
     #Define signals
     SYNC = 0x16
 
-    FN = input("\n\n************************************\n\nEnter 'set' to set parameters, 'rec' to receive them from the board, or 'q' to quit the program")
-    if (FN == "set"):
+    FN = input("\n\n************************************\n\nEnter 's' to set parameters, 'r' to receive them from the board, or 'q' to quit the program\n")
+    if (FN == "s"):
         FN_CODE = 0x55
-    elif (FN == "rec"):
+    elif (FN == "r"):
         FN_CODE = 0x22
     else:
         running = False
         break
 
-    RED_ENABLE = 0xFF
+    RED_ENABLE = 1
     GREEN_ENABLE = 0xFF
     BLUE_ENABLE = 0xFF
 
-    OFF_TIME = single(2) #in seconds
-    SWITCH_TIME = uint16(500) #in milliseconds
+    OFF_TIME = 2 #in seconds
+    SWITCH_TIME = 500 #in milliseconds
 
     #Synch with board
     print("\n\n************************************\n\nSynching...")
