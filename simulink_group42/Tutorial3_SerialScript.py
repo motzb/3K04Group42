@@ -12,7 +12,7 @@ while (running == True):
     FN = input("\n\n************************************\n\nEnter 'set' to set parameters, 'rec' to receive them from the board, or 'q' to quit the program")
     if (FN == "set"):
         FN_CODE = 0x55
-    else if (FN == "rec"):
+    elif (FN == "rec"):
         FN_CODE = 0x22
     else:
         running = False
@@ -57,7 +57,7 @@ while (running == True):
         print("\nBLUE_ENABLE = " + RED_ENABLE_in)
         OFF_TIME_in = data_in[3:6]
         print("\nOFF_TIME = " + RED_ENABLE_in)
-        SWITCH_TIME_in = data_in[7:8]:
+        SWITCH_TIME_in = data_in[7:8]
         print("\nSWITCH_TIME = " + RED_ENABLE_in)
         
 #Close communication
