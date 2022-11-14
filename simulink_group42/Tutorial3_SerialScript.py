@@ -22,8 +22,8 @@ while (running == True):
     GREEN_ENABLE = 0xFF
     BLUE_ENABLE = 0xFF
 
-    OFF_TIME = 2 #in seconds
-    SWITCH_TIME = 500 #in milliseconds
+    OFF_TIME = single(2) #in seconds
+    SWITCH_TIME = uint16(500) #in milliseconds
 
     #Synch with board
     print("\n\n************************************\n\nSynching...")
@@ -60,8 +60,8 @@ while (running == True):
         SWITCH_TIME_in = data_in[7:8]:
         print("\nSWITCH_TIME = " + RED_ENABLE_in)
         
-    #Close communication
-    print("Closing: " + s.name)
-    s.close
+#Close communication
+print("Closing: " + s.name)
+s.close
 
 
