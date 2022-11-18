@@ -1,7 +1,7 @@
 import serial
 import struct
 
-running = False
+#Open port
 s = serial.Serial('COM3', baudrate = 115200, timeout = 10)
 print("Opening: " + s.name)
 
@@ -24,8 +24,8 @@ FN_CODE = FN_CODE.to_bytes(1,'little')
 RED_ENABLE = RED_ENABLE.to_bytes(1,'little')
 GREEN_ENABLE = GREEN_ENABLE.to_bytes(1,'little')
 BLUE_ENABLE = BLUE_ENABLE.to_bytes(1,'little')
-#Convert type single (float) to bytes in big endian format
-#see https://docs.python.org/3/library/struct.html for more details
+#Convert type single (float) to bytes in little endian format
+#see https://docs.python.org/3/library/struct.html for more details,
 #and more data types.
 OFF_TIME = bytearray(struct.pack("<f", OFF_TIME))
 SWITCH_TIME = SWITCH_TIME.to_bytes(2,'little')
