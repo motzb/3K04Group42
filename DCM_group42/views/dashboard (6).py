@@ -35,6 +35,9 @@ class Ui_Dashboard(object):
         self.horizontalLayout_2.addWidget(self.label)
         spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
         self.horizontalLayout_2.addItem(spacerItem)
+        self.btn_transmit_data = QtWidgets.QPushButton(self.frame)
+        self.btn_transmit_data.setObjectName("btn_transmit_data")
+        self.horizontalLayout_2.addWidget(self.btn_transmit_data)
         self.btn_logout = QtWidgets.QPushButton(self.frame)
         self.btn_logout.setMinimumSize(QtCore.QSize(0, 0))
         self.btn_logout.setCursor(QtGui.QCursor(QtCore.Qt.OpenHandCursor))
@@ -656,6 +659,7 @@ class Ui_Dashboard(object):
         _translate = QtCore.QCoreApplication.translate
         Dashboard.setWindowTitle(_translate("Dashboard", "Pacemaker: Device Controller Monitor"))
         self.label.setText(_translate("Dashboard", "<html><head/><body><p><span style=\" font-size:22pt; color:#000000;\">Device Controller Monitor</span></p></body></html>"))
+        self.btn_transmit_data.setText(_translate("Dashboard", "Transmit Data"))
         self.btn_logout.setText(_translate("Dashboard", "Logout"))
         self.label_welcome.setText(_translate("Dashboard", "Hi, "))
         self.label_4.setText(_translate("Dashboard", "Pacemaker Parameters"))
